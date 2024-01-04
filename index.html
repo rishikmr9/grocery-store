@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- nav bar -->
+    <header id="navBar" class="flex darkTheme">
+
+        <div class="logo"><a href="/">LM</a></div>
+    
+        <!-- search bar -->
+        <div class="searchBar sm">
+            <form action="/search" method="post">
+                <input type="text" placeholder="search">
+                <button class="btn iconBtn">
+                    <i class="icon"><img src="/websiteAssets/icons/search.png" alt="search"></i>
+                </button>
+            </form>
+        </div>
+    
+        <!-- menu button -->
+        <button class="btn iconBtn tn">
+            <i class="icon"><img src="/websiteAssets/icons/menu.png" alt="toggle menu"></i>
+        </button>
+        
+        <nav>
+            <ul class="navLinks">
+                <li><a href="/about">about</a></li>
+                <li><a href="/contact">contact</a></li>
+                <div class="navLinks">
+                    <li><a href="/cart"><i class="icon"><img src="/websiteAssets/icons/shoppingCart.png" alt="shopping cart"></i></a></li>
+                    <li><a href="/user"><i class="icon"><img src="/websiteAssets/icons/userProfile.png" alt="user profile"></i></a></li>
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- herosection -->
+        <section id="heroSection" class="darkTheme">
+
+            <div class="flex">
+                <!-- left column -->
+                <div class="left intro flex cl">
+                    <h1>Fresh and organic grocery right at your doorsteps</h1>
+                    <div class="searchBar">
+                        <form>
+                            <input type="text" name="searchQuery" placeholder="search">
+                            <button class="btn">search</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- right column -->
+                <div class="right">
+                    <img src="/websiteAssets/images/grocery.png" id="heroImage">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- benefits -->
+        <section id="benefits" class="flex">
+            <div class="card">
+                <img src="/websiteAssets/images/free delivery.svg">
+                <h2>Free delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro?</p>
+            </div>
+            <div class="card">
+                <img src="/websiteAssets/images/discount.svg">
+                <h2>10% discount on first order</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro?</p>
+            </div>
+            <div class="card">
+                <img src="/websiteAssets/images/return and refund.svg">
+                <h2>Easy return and refund</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. In consectetur est sodales ut tincidunt nisi eget est.</p>
+            </div>
+        </section>
+
+        <!-- suggestions -->
+        <section id="suggestions">
+            
+            <h2>our top products</h2>
+
+            <div class="listingRow grid">
+
+                <div class="productCard">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp1.jpg" alt="spinach" class="productImage">
+                        <h3>spinach</h3>
+                        <p class="price">price: $1</p>
+                        <!-- quantity input -->
+                        <div>
+                            <div class="quantity">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/minus.png" alt="decrease quantity"></i>
+                                </button>
+                                <input type="text" name="quantity" value="1 kg">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/plus.png" alt="increase quantity"></i>
+                                </button>
+                            </div>
+                            <button class="btn iconBtn cta">
+                                <i class="icon"><img src="/websiteAssets/icons/shoppingCart.png" alt="add to cart"></i>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="productCard">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp2.jpg" alt="capsicum" class="productImage">
+                        <h3>capsicum</h3>
+                        <p class="price">price: $2</p>
+                        <!-- quantity input -->
+                        <div>
+                            <div class="quantity">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/minus.png" alt="decrease quantity"></i>
+                                </button>
+                                <input type="text" name="quantity" value="1 kg" >
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/plus.png" alt="increase quantity"></i>
+                                </button>
+                            </div>
+                            <button class="btn iconBtn cta">
+                                <i class="icon"><img src="/websiteAssets/icons/shoppingCart.png" alt="add to cart"></i>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="productCard">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp3.jpg" alt="tomato" class="productImage">
+                        <h3>tomato</h3>
+                        <p class="price">price: $0.8</p>
+                        <!-- quantity input -->
+                        <div>
+                            <div class="quantity">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/minus.png" alt="decrease quantity"></i>
+                                </button>
+                                <input type="text" name="quantity" value="1 kg">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/plus.png" alt="increase quantity"></i>
+                                </button>
+                            </div>
+                            <button class="btn iconBtn cta">
+                                <i class="icon"><img src="/websiteAssets/icons/shoppingCart.png" alt="add to cart"></i>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="productCard">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp4.jpg" alt="banana" class="productImage">
+                        <h3>banana</h3>
+                        <p class="price">price: $0.9</p>
+                        <!-- quantity input -->
+                        <div>
+                            <div class="quantity">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/minus.png" alt="decrease quantity"></i>
+                                </button>
+                                <input type="text" name="quantity" value="1 kg">
+                                <button class="btn iconBtn secondary light">
+                                    <i class="icon"><img src="/websiteAssets/icons/plus.png" alt="increase quantity"></i>
+                                </button>
+                            </div>
+                            <button class="btn iconBtn cta">
+                                <i class="icon"><img src="/websiteAssets/icons/shoppingCart.png" alt="add to cart"></i>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- offers -->
+        <section id="offers" class="darkTheme">
+            <h2>best offers</h2>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="/websiteAssets/tmp/tmp5.jpg" alt="potato" class="productImage">
+                    <h3>potatoes</h3>
+                    <p class="offer">15% off</p>
+                    <button class="btn lg">add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="/websiteAssets/tmp/tmp6.jpg" alt="apple" class="productImage">
+                    <h3>apple</h3>
+                    <p class="offer">7% off</p>
+                    <button class="btn lg">add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="/websiteAssets/tmp/tmp7.jpg" alt="product name" class="productImage">
+                    <h3>milk</h3>
+                    <p class="offer">10% off</p>
+                    <button class="btn lg">add to cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- categories -->
+        <section id="categories">
+            <h2>browse by categories</h2>
+            <div class="listing grid">
+                <div class="card">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp8.jpg" alt="vegetables">
+                        <h3>vegetables</h3>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp9.jpg" alt="fruits">
+                        <h3>fruits</h3>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img src="/websiteAssets/tmp/tmp10.jpg" alt="dairy">
+                        <h3>dairy</h3>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#" class="cardLink">
+                        <img src="/websiteAssets/tmp/tmp11.jpg" alt="stationary">
+                        <h3>stationary</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- final cta -->
+        <section id="finalCta">
+            <h2>search what you are looking for</h2>
+            <div class="searchBar lg">
+                <form>
+                    <input type="text" placeholder="search">
+                    <button class="btn">search</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="flex">
+
+            <div class="signUpForm">
+                <h2>get notified with latest offers by subscribing us</h2>
+                <form action="/subscribeEmail" class="form">
+                    <input type="email" name="email" placeholder="email">
+                    <input type="text" name="name" placeholder="name">
+                    <button class="btn">subscribe</button>
+                </form>
+            </div>
+
+            <div>
+                <h2>useful Links</h2>
+                <nav>
+                    <ul class="navLinks cl">
+                        <li><a href="#">support</a></li>
+                        <li><a href="#">careers</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <h2>policies</h2>
+                <nav>
+                    <ul class="navLinks cl">
+                        <li><a href="#">terms and conditions</a></li>
+                        <li><a href="#">privacy</a></li>
+                        <li><a href="#">cookies</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <small class="copyright">Copyright &copy; 2023 LM</small>
+
+    </footer>
+
+</body>
+</html>
